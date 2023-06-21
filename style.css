@@ -1,0 +1,28 @@
+nav {
+    display: flex;
+}
+
+#hero {
+    margin: 30px 0 30px 0;
+}
+
+#sub-banner {
+    display: flex;
+    justify-content: space-around;
+}
+
+#featured-section-banner {
+    display: flex;
+}
+
+#right-part {
+    width: 50%;
+}
+
+#left-part {
+    width: 50%;
+}
+
+footer{
+    width: 1000px;
+}
