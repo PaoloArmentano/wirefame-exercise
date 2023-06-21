@@ -7,9 +7,15 @@ body{
 
 nav {
     display: flex;
-    /* width: 960px; */
-    justify-content: center;
-    align-items: center;
+    border: 1px solid black;
+    width: 100%;
+}
+
+#nav-items {
+        /* width: 960px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
 }
 
 #hero {
@@ -41,10 +47,14 @@ nav {
 #left-part {
     width: 50%;
 }
-
-footer{
-    width: 1000px;
+h3{
+    font-size: 30px;
 }
+
+p{
+    font-size: 15px;
+}
+
 
 button{
     width: 125px;
@@ -55,4 +65,7 @@ button{
 button:hover {
     cursor: pointer;
     transform:scale(95%);
+}
+footer{
+    width: 100%;
 }
